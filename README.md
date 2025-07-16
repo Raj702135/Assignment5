@@ -1,70 +1,39 @@
-Student Marks Dictionary - Python Program
+# 📘 Student Marks & List Slicing - Python Programs
+  
+Its a python task contains two beginner-friendly programs. They are great for practicing basic concepts like **dictionaries**, **user input**, **list slicing**, and **reversing elements**. The breakdown is in below.
+---
 
-📝 Problem Statement
-This Python program is designed to:
+## 📝 Task 1: Student Marks Dictionary
 
-Create a dictionary where student names are used as keys and their marks as values.
-
-Ask the user to input a student's name.
-
-Retrieve and display the corresponding marks of that student.
-
-If the name isn't found in the dictionary, show a friendly message saying the student doesn't exist.
-
-🚀 How It Works
-The program first creates a dictionary like:
-
-python
-Copy
-Edit
-student_marks = {"Alice": 95, "Bob": 88, "Charlie": 76, "David": 90}
-Then it asks the user to enter a student's name.
-
-It checks the dictionary for that name and prints:
-
-✅ The marks if found.
-
-❌ A message like "Student not found!" if the name doesn’t exist.
+### 💡 Problem Statement:
+Write a Python program that:
+1. Creates a dictionary where student names are keys and their marks are values.
+2. Asks the user to input a student's name.
+3. Retrieves and displays the corresponding marks.
+4. If the student’s name is not found, display an appropriate message.
 
 
 
+Enter the student's name to check their marks: Alice
+Alice's marks: 95
 
-Task 2: List Slicing and Reversal - Python Program
-📝 Problem Statement
-This Python program is built to:
+Enter the student's name to check their marks: Rahul
+Sorry, no records found for 'Rahul'. Please check the name and try again.
 
-Create a list of numbers from 1 to 10.
 
-Extract the first 5 elements using list slicing.
+Task 2: Demonstrate List Slicing
+💡 Problem Statement:
+Write a Python program that:
 
-Reverse the sliced portion.
+Creates a list of numbers from 1 to 10.
 
-Print both the sliced and reversed lists.
+Extracts the first five elements from the list.
 
-🚀 How It Works
-The list is created using:
+Reverses these extracted elements.
 
-python
-Copy
-Edit
-numbers = list(range(1, 11))  # [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-The first 5 elements are sliced like this:
+Prints both the extracted list and the reversed list.
 
-python
-Copy
-Edit
-sliced = numbers[:5]  # [1, 2, 3, 4, 5]
-The sliced list is then reversed:
+Original list: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+First five elements: [1, 2, 3, 4, 5]
+Reversed first five elements: [5, 4, 3, 2, 1]
 
-python
-Copy
-Edit
-reversed_sliced = sliced[::-1]  # [5, 4, 3, 2, 1]
-📦 Output Example
-python
-Copy
-Edit
-
-Original List: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-Sliced List (First 5 elements): [1, 2, 3, 4, 5]
-Reversed Sliced List: [5, 4, 3, 2, 1]
